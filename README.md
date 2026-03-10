@@ -148,4 +148,8 @@ Pitch line:
 - Keep this phase simple. Do not jump into advanced models yet.
 - Mastering basic ML pipeline design is the best foundation for NERP.
 
+---
+***Keep learning ... Keep building.***
+**By Emmanuel Naweji, 2026**
+
 

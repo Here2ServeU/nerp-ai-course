@@ -172,6 +172,17 @@ cpu_usage,memory_usage,system_status
 
 This data will later train a machine learning model.
 
+------------------------------------------------------------------------
+
+# Deactivate the Virtual Environment
+
+When you are finished working, deactivate the virtual environment to
+return to your system's default Python environment.
+
+```sh
+deactivate
+```
+
 ---
 
 # Assignment

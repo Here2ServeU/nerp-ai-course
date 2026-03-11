@@ -137,6 +137,17 @@ If the message appears, your AI environment is ready.
 
 ------------------------------------------------------------------------
 
+## Step 7 --- Deactivate the Virtual Environment
+
+When you are finished working, deactivate the virtual environment to
+return to your system's default Python environment.
+
+```sh
+deactivate
+```
+
+------------------------------------------------------------------------
+
 ## Your Assignment
 
 Before Day 2:
@@ -146,6 +157,7 @@ Before Day 2:
 3.  Create and activate the virtual environment
 4.  Install the ML libraries
 5.  Run the Python script
+6.  Deactivate the virtual environment
 
 ------------------------------------------------------------------------
 

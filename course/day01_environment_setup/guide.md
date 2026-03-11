@@ -74,7 +74,8 @@ Install Python 3.9 or newer.
 Create the folder that will contain our AI experiments.
 
 ```sh
-mkdir nerp_ai cd nerp_ai
+mkdir nerp_ai
+cd nerp_ai
 ```
 ------------------------------------------------------------------------
 

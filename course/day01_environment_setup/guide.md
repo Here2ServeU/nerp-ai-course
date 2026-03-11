@@ -115,7 +115,7 @@ When activated your terminal will display:
 ## Step 5 --- Install Machine Learning Libraries
 
 ```sh
-pip install numpy pip install pandas pip install scikit-learn
+pip install numpy pandas scikit-learn
 ```
 ------------------------------------------------------------------------
 

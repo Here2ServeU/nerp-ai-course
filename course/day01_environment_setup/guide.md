@@ -20,7 +20,7 @@ Intelligence step by step in a simple and practical way.
 Today we begin with the most important step: preparing our development
 environment.
 
----- 
+------------------------------------------------------------------------
 
 ## What You Need
 
@@ -29,7 +29,7 @@ To begin learning Artificial Intelligence, we need three things.
 ### 1. Python
 
 Python is the most widely used programming language in Artificial
-Intelligence.\\
+Intelligence.\
 It is powerful, easy to learn, and supported by thousands of AI
 libraries.
 
@@ -44,7 +44,7 @@ We will use: - NumPy - Pandas - Scikit‑learn
 
 These tools help us work with data and build machine learning models.
 
----- 
+------------------------------------------------------------------------
 
 ## Step 1 --- Verify Python Installation
 
@@ -62,15 +62,15 @@ https://python.org
 
 Install Python 3.9 or newer.
 
----- 
+------------------------------------------------------------------------
 
 ## Step 2 --- Create the Project Folder
 
 Create the folder that will contain our AI experiments.
 
-mkdir nerp\_ai cd nerp\_ai
+mkdir nerp_ai cd nerp_ai
 
----- 
+------------------------------------------------------------------------
 
 ## Step 3 --- Create a Virtual Environment
 
@@ -84,7 +84,7 @@ Windows
 
 python -m venv .venv
 
----- 
+------------------------------------------------------------------------
 
 ## Step 4 --- Activate the Virtual Environment
 
@@ -100,19 +100,19 @@ When activated your terminal will display:
 
 (.venv)
 
----- 
+------------------------------------------------------------------------
 
 ## Step 5 --- Install Machine Learning Libraries
 
 pip install numpy pip install pandas pip install scikit-learn
 
----- 
+------------------------------------------------------------------------
 
 ## Step 6 --- Create Your First Python Script
 
 Create a file named:
 
-ai\_intro.py
+ai_intro.py
 
 Add the following code:
 
@@ -120,27 +120,27 @@ print("NERP AI environment ready")
 
 Run the script:
 
-python ai\_intro.py
+python ai_intro.py
 
 If the message appears, your AI environment is ready.
 
----- 
+------------------------------------------------------------------------
 
 ## Your Assignment
 
 Before Day 2:
 
 1.  Install Python
-2.  Create the nerp\_ai project folder
+2.  Create the nerp_ai project folder
 3.  Create and activate the virtual environment
 4.  Install the ML libraries
 5.  Run the Python script
 
----- 
+------------------------------------------------------------------------
 
 ## Next Lesson
 
 In Day 2 we will explore:
 
-What is Artificial Intelligence really?\\
+What is Artificial Intelligence really?\
 How do machines learn from data?

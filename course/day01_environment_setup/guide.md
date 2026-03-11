@@ -50,16 +50,21 @@ These tools help us work with data and build machine learning models.
 
 Open your terminal and run:
 
+```sh
 python3 --version
+```
 
 or
 
+```sh
 python --version
+```
 
 If Python is not installed, download it from:
 
+```txt
 https://python.org
-
+```
 Install Python 3.9 or newer.
 
 ------------------------------------------------------------------------
@@ -68,8 +73,9 @@ Install Python 3.9 or newer.
 
 Create the folder that will contain our AI experiments.
 
+```sh
 mkdir nerp_ai cd nerp_ai
-
+```
 ------------------------------------------------------------------------
 
 ## Step 3 --- Create a Virtual Environment
@@ -78,50 +84,54 @@ Virtual environments isolate dependencies for each project.
 
 Mac / Linux
 
+```sh
 python3 -m venv .venv
-
+```
 Windows
 
+```
 python -m venv .venv
-
+```
 ------------------------------------------------------------------------
 
 ## Step 4 --- Activate the Virtual Environment
 
 Mac / Linux
 
+```sh
 source .venv/bin/activate
-
+```
 Windows
-
+```
 .venv`\Scripts`{=tex}`\activate`{=tex}
-
+```
 When activated your terminal will display:
-
+```txt
 (.venv)
-
+```
 ------------------------------------------------------------------------
 
 ## Step 5 --- Install Machine Learning Libraries
 
+```sh
 pip install numpy pip install pandas pip install scikit-learn
-
+```
 ------------------------------------------------------------------------
 
 ## Step 6 --- Create Your First Python Script
 
 Create a file named:
-
-ai_intro.py
-
+```sh
+touch ai_intro.py
+```
 Add the following code:
-
+```txt
 print("NERP AI environment ready")
-
+```
 Run the script:
-
+```sh
 python ai_intro.py
-
+```
 If the message appears, your AI environment is ready.
 
 ------------------------------------------------------------------------

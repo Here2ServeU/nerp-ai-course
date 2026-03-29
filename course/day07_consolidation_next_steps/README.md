@@ -224,13 +224,3 @@ Over seven days you:
 You have built a complete, working AI pipeline from telemetry to automation.
 
 **Author: Emmanuel Naweji, 2026**
-
----
-
-## Install dependencies for Day 7
-
-```bash
-cd course/day07_consolidation_next_steps
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-```

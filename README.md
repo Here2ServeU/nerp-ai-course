@@ -34,7 +34,13 @@ Use this sequence from Day 1 to Day 7.
 4. [Day 4: Train Your First Model](course/day04_machine_learning_model/README.md)
 5. [Day 5: Model Evaluation](course/day05_model_evaluation/README.md)
 6. [Day 6: AI Decision Engine](course/day06_ai_decision_engine/README.md)
-7. [Day 7: AI Automation](course/day07_ai_automation/README.md)
+7. [Day 7: Consolidation & Next Steps](course/day07_consolidation_next_steps/README.md)
+
+## Community
+
+Join our growing community of AI learners and practitioners:
+
+- **[Join Community](https://chat.whatsapp.com/HhAvbQegw9o12GTfMNdULs?mode=gi_t)** — Connect with other students, share progress, ask questions, and learn together.
 
 ## Recommended Study Rhythm
 

@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 # Allow running this script directly from the course directory.
-ROOT_DIR = Path(__file__).resolve().parents[2]
+ROOT_DIR = Path(__file__).resolve().parents[0]
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 

@@ -138,7 +138,14 @@ Once you've mastered the basics:
 
 Start small. One change at a time. Understand each step.
 
-## Step 5: Grow Your Skills (Optional: Join My Mentorship)
+## Step 5: Join Our Community
+Connect with other learners and get support:
+- **WhatsApp Community**: [Join our community chat](https://chat.whatsapp.com/HhAvbQegw9o12GTfMNdULs?mode=gi_t) to discuss ideas, ask questions, and learn together
+- **Share your progress** with fellow students
+- **Get peer feedback** on your projects
+- **Stay updated** on course announcements and resources
+
+## Step 6: Grow Your Skills (Optional: Join My Mentorship)
 When you're ready to go beyond this course:
 - **Want personalized guidance?** I offer a mentorship program
 - **Ready to tackle bigger problems?** We can work together on real-world projects
@@ -187,8 +194,9 @@ This shows the full NERP loop processing real telemetry data through:
 1. **Run the demo** — `python automation_demo.py`
 2. **Review each day** — Start from Day 1 and work through to master concepts
 3. **Visit www.emmanuelnaweji.com/nerp-ai** — Check for updates and new content
-4. **Build incrementally** — One small change at a time
-5. **Want to grow further?** — Reach out to discuss mentorship opportunities
+4. **Join the community** — [Connect with us](https://chat.whatsapp.com/HhAvbQegw9o12GTfMNdULs?mode=gi_t)
+5. **Build incrementally** — One small change at a time
+6. **Want to grow further?** — Reach out to discuss mentorship opportunities
 
 Thank you for learning with NERP AI Fundamentals. You now have a strong foundation. Keep building, keep learning, and let's grow together.
 

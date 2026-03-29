@@ -12,7 +12,7 @@ from sklearn.tree import DecisionTreeClassifier
 # ---------------------------------------------------------------------------
 # 1. Load dataset
 # ---------------------------------------------------------------------------
-DATA_PATH = "../../datasets/system_metrics_sample.csv"
+DATA_PATH = "datasets/system_metrics.csv"
 
 data = pd.read_csv(DATA_PATH)
 
@@ -23,8 +23,8 @@ print()
 # ---------------------------------------------------------------------------
 # 2. Define features and label
 # ---------------------------------------------------------------------------
-FEATURE_COLUMNS = ["cpu", "memory", "latency"]
-TARGET_COLUMN = "failure"
+FEATURE_COLUMNS = ["cpu_usage", "memory_usage"]
+TARGET_COLUMN = "system_status"
 
 X = data[FEATURE_COLUMNS]
 y = data[TARGET_COLUMN]
@@ -40,10 +40,9 @@ print("Model trained successfully.\n")
 # ---------------------------------------------------------------------------
 # 4. Make a prediction on a new telemetry sample
 # ---------------------------------------------------------------------------
-# cpu=92, memory=85, latency=110 — high-stress system metrics
-sample = pd.DataFrame([{"cpu": 92, "memory": 85, "latency": 110}])
+# cpu_usage=92, memory_usage=85 -> likely warning/failure system state
+sample = pd.DataFrame([{"cpu_usage": 92, "memory_usage": 85}])
 prediction = model.predict(sample[FEATURE_COLUMNS])
 
-label = "failure risk" if prediction[0] == 1 else "healthy"
-print(f"Sample  : cpu=92, memory=85, latency=110")
-print(f"Prediction: {prediction[0]} ({label})")
+print("Sample  : cpu_usage=92, memory_usage=85")
+print(f"Prediction: {prediction[0]}")

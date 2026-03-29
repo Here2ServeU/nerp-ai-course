@@ -1,130 +1,51 @@
-# NERP AI Foundations
+# NERP AI Fundamentals Course
 
-NERP AI Foundations is a beginner-friendly learning project for understanding the core reliability intelligence loop.
+A practical 7-day AI learning program focused on the NERP model for operational intelligence.
 
-## Core Loop
+## Creator Bio
 
-Telemetry -> AI Model -> Decision -> Automation
+I am **Emmanuel Naweji**, creator of this course and founder of the NERP learning approach.
 
-The repository is organized as a small course. It combines reference notes, daily lesson material, notebooks, sample datasets, reusable Python modules, and demo scripts that show how a simple NERP pipeline can be assembled from raw telemetry to remediation.
+This course is part of my PhD research and practical work around **NERP (Naweji Enterprise Reliability Platform)**, where I explore how AI can improve operational reliability through a simple, teachable loop:
 
-## Learning Outcomes
+1. Collect telemetry.
+2. Analyze with AI/ML.
+3. Make clear decisions.
+4. Trigger safe automation.
 
-By the end of the material in this repository, you should be able to:
+I build this work for:
 
-1. Explain the NERP architecture at a beginner level.
-2. Load and explore operational datasets with Python and pandas.
-3. Train a basic prediction model for failure risk.
-4. Detect unusual system behavior with anomaly detection.
-5. Map model output to deterministic operational decisions.
-6. Execute safe placeholder remediation actions from software.
+- **Mentees** who want guided, hands-on AI fundamentals with real-world context.
+- **Clients** who want reliable, explainable AI workflows that connect data, decisions, and action.
 
-## Repository Layout
+## Repository Navigation
 
+- [Course](course/) - The complete 7-day learning path.
+- [Datasets](datasets/) - Sample datasets used throughout the lessons.
+- [Docs](docs/) - Supporting explanations for AI foundations and NERP architecture.
 
-```text
-nerp-ai/
-├── docs/                 Reference reading for concepts and architecture
-├── course/               Day-by-day teaching materials
-├── notebooks/            Guided hands-on labs
-├── datasets/             Sample CSV datasets for system, fintech, and incidents
-├── models/               Saved model artifacts and notes
-├── nerp/                 Reusable Python modules for the NERP pipeline
-├── demos/                End-to-end demos built from the shared modules
-└── diagrams/             Architecture and pipeline images
-```
+## How To Go Through This 7-Day Course
 
-## Core Python Modules
+Use this sequence from Day 1 to Day 7.
 
-- `nerp/data_pipeline/data_loader.py`: dataset discovery and CSV loading helpers.
-- `nerp/ai_engine/train_model.py`: trains and saves the prediction model.
-- `nerp/ai_engine/predict.py`: loads a trained model and predicts risk.
-- `nerp/ai_engine/anomaly_detector.py`: trains and runs anomaly detection.
-- `nerp/decision_engine/decision_logic.py`: converts model output into actions.
-- `nerp/automation/remediation_actions.py`: executes safe placeholder remediation commands.
+1. [Day 1: Environment Setup](course/day01_environment_setup/README.md)
+2. [Day 2: AI Basics](course/day02_ai_basics/README.md)
+3. [Day 3: Data and Features](course/day03_data_and_features/README.md)
+4. [Day 4: Train Your First Model](course/day04_machine_learning_model/README.md)
+5. [Day 5: Model Evaluation](course/day05_model_evaluation/README.md)
+6. [Day 6: AI Decision Engine](course/day06_ai_decision_engine/README.md)
+7. [Day 7: AI Automation](course/day07_ai_automation/README.md)
 
-## Quick Start
+## Recommended Study Rhythm
 
-Install dependencies:
+For each day:
 
-```bash
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-```
+1. Read the day README first.
+2. Install that day's dependencies if needed (`course/dayXX.../requirements.txt`).
+3. Run the Python script for the lesson.
+4. Review output and map it back to the NERP loop.
+5. Complete the assignment before moving to the next day.
 
-Run the incident predictor demo:
+## Expected Outcome
 
-```bash
-python demos/nerp_incident_predictor/demo_script.py
-```
-
-Run the fintech risk monitor demo:
-
-```bash
-python demos/fintech_risk_monitor/demo_script.py
-```
-
-Generate model artifacts:
-
-```bash
-python -m nerp.ai_engine.train_model
-python -m nerp.ai_engine.anomaly_detector
-```
-
-Install dependencies for a specific course day:
-
-```bash
-cd course/day07_ai_automation
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-```
-
-## Using the Notebooks
-
-The notebooks are designed to be completed in order:
-
-1. `notebooks/01_python_basics.ipynb`
-2. `notebooks/02_data_exploration.ipynb`
-3. `notebooks/03_first_ml_model.ipynb`
-4. `notebooks/04_anomaly_detection.ipynb`
-5. `notebooks/05_prediction_demo.ipynb`
-
-To use them in VS Code:
-
-1. Install the dependencies from `requirements.txt`.
-2. Open the repository root in VS Code.
-3. Open a notebook from the `notebooks/` folder.
-4. Select a Python kernel that has the project dependencies installed.
-5. Run the cells from top to bottom.
-
-The early notebooks focus on Python and data exploration. The later notebooks move into model training, anomaly detection, and the full prediction flow.
-
-If a notebook imports project modules such as `nerp.ai_engine`, make sure the notebook is being run with the repository opened as the workspace root so the local package can be resolved correctly.
-
-## Day-by-Day Path
-
-Day 1 starts with environment setup so you can install dependencies, understand the repository layout, and see how the folders connect.
-
-Day 2 introduces the AI foundation terms you need for the rest of the week, including features, labels, training, and prediction.
-
-Day 3 moves into data and features, where you inspect the datasets and decide what information should feed the models.
-
-Day 4 uses that data understanding to train the first machine learning model and generate predictions from telemetry.
-
-Day 5 focuses on model evaluation so you can measure prediction quality with accuracy, classification metrics, and cross-validation.
-
-Day 6 turns those AI signals into deterministic operational decisions through the decision engine.
-
-Day 7 completes the loop by executing safe automation actions and presenting the full NERP flow from telemetry to remediation.
-
-To move through the material smoothly, read the matching note in `docs/`, complete the lesson in `course/`, work through the related notebook, then inspect the corresponding Python module in `nerp/`.
-
-## Notes
-
-- The automation layer uses safe print-based placeholders instead of real infrastructure changes.
-- The sample model files under `models/` are beginner-friendly artifacts that can be regenerated from the training modules.
-- The diagrams are placeholder visuals for teaching structure and can be replaced with richer assets later.
-
-## Author
-
-Emmanuel Naweji, 2026
+By the end of Day 7, you should be able to explain and implement a beginner-friendly AI workflow that moves from raw data to model output, decision logic, and basic automation in a reliability context.

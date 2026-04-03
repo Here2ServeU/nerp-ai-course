@@ -2,6 +2,11 @@
 
 A practical 7-day AI learning program focused on the NERP model for operational intelligence.
 
+## 📺 Course Playlist
+
+Watch all videos for this course on YouTube: [NERP AI Fundamentals Playlist](https://youtu.be/J1-AtbmOwYU?si=mOtQzBpOFTKc-mig)
+
+
 ## Creator Bio
 
 I am **Emmanuel Naweji**, creator of this course and founder of the NERP learning approach.
